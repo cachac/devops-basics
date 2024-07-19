@@ -64,4 +64,4 @@ stages:
               resourceGroup: 'rg-cachac'
 
               acrUsername: 'acrapps'
-              acrPassword: 'owksnLYZRnWu5yEJ63lnBoRyGn5UuqA1BLhJqlY6oL+ACRBV7WJg'
+              acrPassword: 'XXX'
