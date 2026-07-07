@@ -51,9 +51,9 @@ stages:
           - task: AzureContainerApps@1
 
             inputs:
-              azureSubscription: 'appdeployconnection'
+              azureSubscription: appdeployconnection
               imageToDeploy: acrappscarlos.azurecr.io/${{ parameters.imageName }}:${{ parameters.tag }}
-              containerAppName: 'app-demo-page'
+              containerAppName: app-demo-page
               resourceGroup: kube
 
               acrUsername: $(acrUsername)
